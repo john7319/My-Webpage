@@ -1,3 +1,4 @@
+// Capture name and post it when you load the website.
 let userName = prompt("What's your name?");
 const h3 = document.createElement("h3")
 if (userName !== null) {

@@ -1,3 +1,10 @@
-const h2 = document.createElement("h2")
-h2.textContent = "This is a child added to the file"
-document.querySelector("body").appendChild(h2);
+let userName = prompt("What's your name?");
+const h3 = document.createElement("h3")
+if (userName !== null) {
+    h3.textContent = `Welcome ${userName} to my personal Website`
+    document.querySelector("body").appendChild(h3);
+} else {
+    h3.textContent = `Welcome  to my personal Website`
+    document.querySelector("body").appendChild(h3);
+}
+

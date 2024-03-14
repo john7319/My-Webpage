@@ -12,8 +12,8 @@ body {
 
 
 #nav_bar{
-    background-color: gray;
-    overflow:hidden
+    background-color: none;
+    overflow: hidden ;
 }
 
 #nav_bar a {

@@ -8,4 +8,3 @@ if (userName !== null) {
     h3.textContent = `Welcome  to my personal Website`
     document.querySelector("body").appendChild(h3);
 }
-

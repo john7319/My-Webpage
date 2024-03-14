@@ -33,13 +33,24 @@ body {
 
 
 .Profile{
-    width: 50%;
+    width: 80%;
     color: antiquewhite;
-    text-align: center;
+    text-align:start;
 
 }
 
+.col-md-4{
+    display: flex;
+    justify-content: center;
+    place-items: center;
 
+}
+.Container{
+    max-width: 800px;
+    margin: auto;
+    height: 80vw;
+
+}
 .My_data{
     padding: auto;
     color: antiquewhite;

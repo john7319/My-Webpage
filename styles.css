@@ -2,57 +2,110 @@ body {
    /* background-color: #707175;
     background-image: linear-gradient(43deg, #707175 0%, #0c0c0c 46%, #d2cbbf 100%);
     */
-
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+    background-image: url("images/modern-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
 }
 
-
+h3{
+    color: white;
+}
 #nav_bar{
     background-color: none;
     overflow: hidden ;
 }
 
-#nav_bar a {
+#nav_bar button {
     float: right;
     color: #000;
+    background-color: lightcoral;
+    border: none;
+    padding: 20px;
     text-align: center;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    cursor: pointer;
     
 }
-#nav_bar a:hover{
+#nav_bar button:hover{
     text-transform: capitalize;
     color: white;
 }
 
-
 .Profile{
     width: 80%;
     color: antiquewhite;
-    text-align:start;
+    text-align:center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
 
 }
 
-.col-md-4{
-    display: flex;
-    justify-content: center;
-    place-items: center;
 
-}
-.Container{
-    max-width: 800px;
-    margin: auto;
-    height: 80vw;
 
+ul{
+    list-style:circle;
 }
 .My_data{
     padding: auto;
-    color: antiquewhite;
+    color: gray;
+    font-weight: bold;
     text-align: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+#Footer {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+#Footer tr{
+    background-color: black;
+}
+#Footer td, #Footer th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: white;
+} 
+#Footer tr:hover {
+    background-color: transparent;
+}
+#Footer th {     
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.ContactMe{
+    text-align: center;
+    color: lightcoral;
+}
+#btn {
+    border: 2px solid black;
+    background: brown;
+    color: black;
+    cursor: pointer;
+    font-family: 'Recursive', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.ContactMe #btn a:hover {
+    color: aliceblue;
+    
+}
+
+

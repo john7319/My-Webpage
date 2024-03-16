@@ -1,5 +1,7 @@
+
 // Capture name and post it when you load the website.
-let userName = prompt("What's your name?");
+
+let userName = prompt("Please enter your name for a better experience?");
 const h3 = document.createElement("h3")
 if (userName !== null) {
     h3.textContent = `Welcome ${userName} to my personal Website`
